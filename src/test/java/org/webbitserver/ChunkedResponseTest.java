@@ -11,7 +11,7 @@ import static org.webbitserver.WebServers.createWebServer;
 import static org.webbitserver.testutil.HttpClient.httpGet;
 
 public class ChunkedResponseTest {
-    private WebServer webServer = createWebServer(12345);
+    //private WebServer webServer = createWebServer(12345);
 
     @After
     public void die() throws InterruptedException, ExecutionException {
